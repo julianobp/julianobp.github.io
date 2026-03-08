@@ -1,1 +1,60 @@
-teste2
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tópicos sobre imagem</title>
+  <style>
+    .bloco {
+      width: 700px;
+      min-height: 400px;
+      background-image: url("sua-imagem.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      color: white;
+      padding: 30px;
+      border-radius: 12px;
+
+      display: flex;
+      align-items: center;
+    }
+
+    .conteudo {
+      background-color: rgba(0, 0, 0, 0.45); /* escurece atrás do texto */
+      padding: 20px 25px;
+      border-radius: 10px;
+      max-width: 450px;
+    }
+
+    .conteudo h2 {
+      margin-top: 0;
+    }
+
+    .conteudo ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .conteudo li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bloco">
+    <div class="conteudo">
+      <h2>Principais pontos</h2>
+      <ul>
+        <li>Primeiro tópico importante</li>
+        <li>Segundo tópico importante</li>
+        <li>Terceiro tópico importante</li>
+        <li>Quarto tópico importante</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
